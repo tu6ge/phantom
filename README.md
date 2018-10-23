@@ -27,6 +27,6 @@ upstream web_screenshot{
 ```
 
 然后把需要转换成图片的网址，进行base64加密
-比如 https://www.baidu.com转码后 aHR0cHM6Ly93d3cuYmFpZHUuY29t 
+比如 https://www.baidu.com 转码后 aHR0cHM6Ly93d3cuYmFpZHUuY29t 
 
 用浏览器访问 http://domain/web_screenshot/?url=aHR0cHM6Ly93d3cuYmFpZHUuY29t 即可获取百度的首页截图
