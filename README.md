@@ -1,13 +1,13 @@
 # 把网页转成图片
 
-机器需要安装docker和docker-compose
-在当前目录运行
+机器需要安装docker和docker-compose,
+然后在当前目录运行
 
 ```
 docker-compose -d [ --build] #首次运行，需要加上--build
 ```
-
-nginx配置，改成如下
+此时phantom服务应该启动起来了，
+然后修改nginx配置，如下
 
 ```
 server{
